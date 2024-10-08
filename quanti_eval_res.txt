@@ -1,0 +1,135 @@
+Synthetic dataset: Roofpc3D
+############################ Cluster without egde ######################
+cluster: r1 * 0.1 + r2 * 0.9 < 0.05 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.924615 0.961121 0.994620 0.953095 0.979817 0.998782 0.989004 0.978652
+cluster: r1 * 0.1 + r2 * 0.9 < 0.10 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.929245 0.963515 0.997570 0.957381 0.980904 0.999437 0.989928 0.980374
+cluster: r1 * 0.1 + r2 * 0.9 < 0.15 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.931514 0.964271 0.998335 0.959595 0.981121 0.999697 0.990164 0.980836
+cluster: r1 * 0.1 + r2 * 0.9 < 0.20 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.931925 0.963591 0.998914 0.959887 0.980355 0.999748 0.989732 0.980122
+cluster: r1 * 0.1 + r2 * 0.9 < 0.25 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.930262 0.961721 0.999255 0.957935 0.978785 0.999857 0.988911 0.978652
+
+############################ Cluster with egde ######################
+cluster: r1 < 0.01  N> 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.861212 0.900965 0.930947 0.934315 0.954961 0.977667 0.965177 0.935090
+cluster: r1 < 0.01  N> 60
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.855473 0.899529 0.939860 0.924964 0.952056 0.980985 0.965305 0.935342
+cluster: r1 < 0.02  N> 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.883919 0.915579 0.905615 0.964583 0.966177 0.975587 0.970160 0.943188
+cluster: r1 < 0.02  N> 60
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.877463 0.915565 0.941398 0.953333 0.962225 0.983102 0.971894 0.946454
+cluster: r1 < 0.02  N> 100
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.864752 0.913154 0.990619 0.932976 0.953783 0.996143 0.973913 0.950302
+cluster: r1 < 0.03  N> 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.872025 0.901502 0.795837 0.962607 0.972924 0.945868 0.958071 0.921248
+cluster: r1 < 0.03  N> 100
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.862281 0.909977 0.971876 0.931000 0.955305 0.988068 0.970618 0.944461
+
+
+cluster: r2 < 0.10  N> 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.840511 0.874452 0.641733 0.946994 0.985073 0.895417 0.936148 0.882460
+cluster: r2 < 0.10  N> 100
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.882152 0.929196 0.930881 0.927411 0.973484 0.974280 0.972702 0.948582
+cluster: r2 < 0.20  N> 50 
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.816305 0.848380 0.588779 0.948577 0.986011 0.864680 0.919167 0.852910
+
+cluster: r1 * 0.1 + r2 * 0.9 < 0.1 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.896008 0.927145 0.792392 0.956935 0.983753 0.954745 0.967917 0.938945
+cluster: r1 * 0.1 + r2 * 0.9 < 0.1 N > 60
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.897998 0.935532 0.866666 0.948512 0.980721 0.969401 0.974046 0.950420
+cluster: r1 * 0.1 + r2 * 0.9 < 0.1 N > 100  
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.899354 0.947149 0.982107 0.932143 0.974209 0.993243 0.983017 0.967528
+cluster: r1 * 0.1 + r2 * 0.9 < 0.15 N > 100
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.893571 0.940951 0.964797 0.931851 0.973957 0.985657 0.978812 0.959833
+
+-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
+
+Real dataset: RoofN3D 
+############################ Cluster without egde#################################################
+cluster: 0.1 * r1 + 0.9 * r2 < 0.05 N>50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.908992 0.913854 0.987524 0.987524 0.953511 0.997769 0.974747 0.951660
+cluster: 0.1 * r1 + 0.9 * r2 < 0.1 N>50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.912100 0.916125 0.993470 0.992982 0.954274 0.999550 0.975999 0.953845
+cluster: 0.1 * r1 + 0.9 * r2 < 0.15 N>50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.909353 0.913806 0.992593 0.988694 0.952404 0.999727 0.974987 0.952163
+cluster: 0.1 * r1 + 0.9 * r2 < 0.2 N>50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.907899 0.912864 0.986647 0.988109 0.952187 0.998332 0.974018 0.950706
+cluster: 0.1 * r1 + 0.9 * r2 < 0.25 N>50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.877276 0.909477 0.991033 0.954191 0.880410 0.998708 0.934557 0.949912
+
+cluster: r1 < 0.02 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.897486 0.898519 0.993665 0.986842 0.941579 0.998736 0.967904 0.940515
+
+############################ Cluster with egde #################################################
+cluster: r1 < 0.02 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.840841 0.863153 0.809812 0.953216 0.877951 0.937170 0.903188 0.894449
+
+cluster: r2 < 0.10 N > 40
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.854276 0.878243 0.769108 0.961014 0.890795 0.933320 0.908318 0.904034
+cluster: r2 < 0.10 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.861389 0.886369 0.838434 0.961014 0.887433 0.950303 0.915081 0.915769
+cluster: r2 < 0.10 N > 60
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.868433 0.894916 0.905626 0.961014 0.885714 0.967149 0.922236 0.928478
+cluster: r2 < 0.10 N > 70
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.872304 0.900020 0.936567 0.961014 0.884237 0.977108 0.926388 0.935769
+cluster: r2 < 0.15 N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.848878 0.873213 0.748653 0.957895 0.890939 0.923445 0.903806 0.895824
+cluster: r2 < 0.15 N > 60
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.855619 0.880283 0.814274 0.957895 0.889198 0.937796 0.909661 0.906385
+cluster: r2 < 0.15 N > 100
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.868943 0.895904 0.931356 0.960234 0.884788 0.970585 0.923251 0.930253
+
+cluster: r1 * 0.1 + r2 * 0.9 < 0.05  N > 100
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.881562 0.912292 0.990058 0.955263 0.881630 0.998407 0.935346 0.951599
+cluster: r1 * 0.1 + r2 * 0.9 < 0.10  N > 50
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.867568 0.894044 0.846596 0.957212 0.890262 0.954771 0.918900 0.922365
+cluster: r1 * 0.1 + r2 * 0.9 < 0.10  N > 60
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.873637 0.901536 0.911169 0.958382 0.887375 0.971780 0.925794 0.934423
+cluster: r1 * 0.1 + r2 * 0.9 < 0.10  N > 70
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.878150 0.907192 0.949701 0.958382 0.885498 0.983803 0.930681 0.943039
+cluster: r1 * 0.1 + r2 * 0.9 < 0.10  N > 100
+m_cov ///// m_wcov ////// ins_prec ///// ins_rec ///// Precision ///// Recall ///// F1_score ///// Accuracy
+0.881792 0.912415 0.988207 0.959552 0.882953 0.996837 0.935397 0.951524
+
+-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------

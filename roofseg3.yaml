@@ -1,0 +1,14 @@
+DATA:
+  NPOINT: 2048
+  NOISE: True
+MODEL:
+  PointNet2:
+    NOISE: True
+    LossWeight: {
+      'sem_weight': 1.0,
+      'off_norm_weight': 1.0,
+      'off_dir_weight': 1.0
+    }
+
+
+
