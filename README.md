@@ -12,7 +12,7 @@ To train and test DeepRoofPlane, we construct a new synthetic dataset of roof bu
 The real building point clouds are selected from [RoofN3D](https://github.com/sarthakTUM/roofn3d).
 On this basis, we manually labeled and reproduced the roofs of 1,874 buildings.
 
-The synthetic and real dataset can be downloaded from [[baiduyun](https://pan.baidu.com/s/1Esbpnp30fWHA1_7eXwcYtQ) :nou3] or [[GoogleDrive](https://drive.google.com/drive/folders/1d8y2UxC9TUirgk6L1VbP-KXg3YbDgWYy?usp=sharing)]. 
+The synthetic and real dataset can be downloaded from [[baiduyun](https://pan.baidu.com/s/14nS9D2XMhj-UpsSCXL5-4w?pwd=e9r4) :e9r4]. 
 You can directly unzip the file to obtain all train and test sets. 
 
 
